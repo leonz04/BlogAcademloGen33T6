@@ -15,7 +15,7 @@ aside h3 {
 }
 
 header {
-      position:absolute;
+      position:fixed;
       background-image: url(../assets/imgPortada.png);
       background-size: cover;
       background-position: bottom;
