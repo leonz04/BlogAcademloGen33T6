@@ -4,7 +4,7 @@ aside {
       position: fixed;
       top: 0;
       right: 0;
-      width: 400px;
+      width: 20%;
       height: 100%;
       background-color: #F1F1F1;
       padding: 20px;
@@ -15,11 +15,11 @@ aside h3 {
 }
 
 header {
-      background-image: url("../assets/imgPortada.png");
+      background-image: url(../assets/imgPortada.png);
       background-size: cover;
-      width: 1920px;
-      height: 1080px;
-
+      background-position: bottom;
+      width: 80%;
+      height: 500px;
 }
 
 header h1{
