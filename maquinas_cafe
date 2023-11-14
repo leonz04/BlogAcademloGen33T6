@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia del café</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+</head>
+<body>
+    <!-- Header-->
+    <header>
+       <!--  <video-- src="./assets/video-cafe.mp4" type="video/mp4" autoplay loop></video-->
+        <img src="./assets/imgPortada.png" alt="imagen correspondiente al blog" width="100%">
+        <h1>Historia del Café</h1>
+        <p>No hay nada como una taza de café para estimular las células del cerebro.<i>"Sherlock Holmes"</i></p>
+        <nav>
+            <ul>
+                <li>barra de navegacion ..... sobre la imagen en la parte superior</li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#creadores">Creadores</a></li>
+                <li><a href="index.html#posts">Posts</a></li>
+                <li><a href="index.html#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="infoBlog">
+            <time datetime="2023-11-10">Fecha:</time>
+            <h2>Autor:</h2>
+            <strong>Categoría:</strong> 
+        </section>
+        <section id="wrapper">
+            <h2>Maquinas de Cafe</h2>
+            <p>La historia del café se remonta al siglo xiii, aunque el origen del café sigue sin esclarecerse. Se cree que los ancestros etíopes del actual pueblo oromo fueron los primeros en descubrir y reconocer el efecto energizante de los granos de la planta del café;1​ sin embargo, no se ha hallado evidencia directa que indique en qué parte de África crecía o qué nativos lo habrían usado como un estimulante o incluso conocieran su existencia antes del siglo xvii.1​
+
+                La historia de Kaldi, un criador de cabras etíope del siglo ix que habría descubierto el café, no apareció escrita hasta 1671 y es probablemente apócrifa.2​ Se cree que, desde Etiopía, el café fue propagado a Egipto y Yemen.3​ La evidencia creíble más temprana de cualquier bebida de café o conocimiento del árbol del café aparece a mediados del siglo xv, en los monasterios sufi de Yemen.1​ Fue allí, en Arabia, donde los granos de café fueron tostados y molidos por primera vez con sal en una forma similar a como son preparados en la actualidad. Para el siglo xvi, se había expandido por el resto del Medio Oriente, Persia, Turquía y África del Norte. Luego, el café se extendió a Italia y el resto de Europa hasta Indonesia y el continente americano.4​
+                
+                La palabra "café" proviene del término turco kahve, a su vez, procedente del árabe, qahwa, a través del italiano.5​ El término árabe sería una abreviación de la expresión qahhwat al-bun o planta de café. Un posible origen de la palabra se encontraría en el Reino de Kaffa en Etiopía, de donde procedería la planta del café; su nombre allí es bunn o bunna.</p>
+
+        </section>
+
+        <section id="coments">
+            <img src=" " alt="avatarusuario">
+            <h2>userName</h2>
+            <time datetime="2023-11-10">Fecha:</time>
+            <p><i>el comentario</i></p>
+        </section>
+
+        <section id="letComent">
+            <h2>deja tu comentario</h2>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <input type="submit">
+        </section>
+
+    
+    </main>
+    <footer>
+    
+        <div>
+            <h3>ENLACES DE INTERÉS</h3>
+           
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#creadores">Creadores</a></li>
+                <li><a href="#posts">Posts</a></li>
+                <li><a href="#contact">Contacto</a></li>
+                 
+            </ul>  
+            <!-- en el enlace de contacto está pendiente preguntar si quedará en la página principal o será otra secundaria -->
+        </div>
+        <div>
+            <h3>ARTÍCULOS RECIENTES DEL BLOG</h3>
+        
+            <!-- falta tener el código de los artículos de la página de inicio para anexarle un id y hacer el hipervinculo correspondiente y anexar los títulos verdaderos -->
+            <ul>
+                <li><a href="historia_cafe.html" target="_blank">Historia del café</a></li>
+                <li><a href="tipos_de_cafe.html" target="_blank">Tipos de café</a></li>
+                <li><a href="variedades_y_origen.html" target="_blank">Variedades y Origen</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>SÍGUENOS EN REDES SOCIALES</h3>
+        
+            <ul>
+                <li><a href="https://www.facebook.com/divergentecafe/" target="_blank"><img src="./assets/facebook.png" alt="Logo Facebook"></a></li>
+                <li><a href="https://www.instagram.com/peracafemx/" target="_blank"><img src="./assets/instagram.png" alt="Logo instagram"></a></li>
+                <li><a href="https://twitter.com/cafe_lindo" target="_blank"><img src="./assets/twitter.png" alt="logo twitter"></a></li>
+            </ul>
+        </div>
+        <div>
+            <img src="./assets/logo blog de café.png" alt="logo del blog">
+        </div>
+        <div>
+            <p>Polg. de Montouto. Ctra. Santiago- A Estrada Km. 2.700</p>
+        </div>
+
+        <div>
+            <a href="mailto:contacto@elcafe-talapan.com">Envía un email</a>
+            <img src="./assets/logo email2.png" alt="Logo email">
+            <br>
+            <br>
+            <a href="https://wa.me/+549352222222?text=tu%20%20mensaje" target="_blank">Enviar mensaje por whatsapp</a>
+            <img src="./assets/logo whatsapp.png" alt="Logo whatsapp">
+            <br>
+            <a href="tel+5255555555677">Llámanos</a>
+        
+        </div>
+
+        <div>
+            <p>Diseño y Programación Web:<a href="https://www.academlo.com/">Academlo Team-6 Gen33</a></p>
+        </div>
+
+        <div>
+            <p>© Copyright 2023</p>
+        </div>
+
+      </footer>
+  
+</body>
+</html>
