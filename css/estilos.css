@@ -15,12 +15,24 @@ aside h3 {
 }
 
 header {
-      position:fixed;
       background-image: url(../assets/imgPortada.png);
       background-size: cover;
       background-position: bottom;
       width: 80%;
       height: 500px;
+}
+
+nav ul{
+      list-style-type: none; /* Quita los puntos de lista */
+      margin: 0;
+      padding: 0;
+      text-align: center;
+}
+
+nav ul li{
+      display: inline; /* Mostrar los elementos en línea */
+      margin: 0 10px;
+
 }
 
 header h1{
